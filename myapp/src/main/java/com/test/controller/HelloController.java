@@ -18,7 +18,7 @@ public class HelloController {
 
     private final HelloService helloService;//使用@RequiredArgsConstructor注入
 
-    @MyLog(desc = "sayHello方法")
+    @MyLog(desc = "sayHello方法")//自定义接口注解
     @GetMapping("/say")
     public String sayHello() {
         return helloService.sayHello();
