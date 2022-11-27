@@ -1,0 +1,6 @@
+server:
+  port: 8090
+
+hello:
+  name: wfh
+  address: fuzhou
